@@ -1,4 +1,4 @@
-import Home from "./Home";
+
 const Nav = () => {
 
     return(
@@ -7,11 +7,11 @@ const Nav = () => {
                 <span>LOGO</span>
             </div>
             <div className="nav_home ds_flex flex_cntr">
-                <a href={Home}>HOME</a>
-                <a href="#">ABOUT</a>
-                <a href="#">MENU</a>
-                <a href="#">ORDER</a>
-                <a href="#">CONTACT</a>
+                <span >HOME</span>
+                <span>ABOUT</span>
+                <span >MENU</span>
+                <span >ORDER</span>
+                <span >CONTACT</span>
             </div>
         </div>
     );

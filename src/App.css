@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav_container{
+  width: 100vw;
+  height: 7vh;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  border: solid 2px red;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo{
+  border: solid 2px seashell;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ds_flex{
   display: flex;
-  flex-direction: column;
+}
+.flex_cntr{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+.nav_home{
+  border: solid 2px blue;
+  gap: 25px;
+  margin-left: 60%;
+  /* background-color: red; */
+}
+.nav_home > span{
+  float: right;
+}
+a{
+  text-decoration: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+h2{
+  color: white;
+}
+.home{
+  background-size: cover;
+  justify-content: center;
+  background-image: url("https://wallpaperaccess.com/full/1919229.jpg");
+  /* height: 90vh; */
+  /* width: 100vw; */
+  /* background-repeat: no-repeat; */
+  height: 93vh;
+}
+.home > p{
+  
+  color: white;
+  position: relative;
+  top: 80vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home > p > span{
+  color: red;
+}
+.main{
+  width: 100vw;
+  height: 100vh;
+}
+.main_home{
+  width:"100vw";
+  height: "93vh";
 }
